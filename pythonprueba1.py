@@ -20,8 +20,8 @@ class Empleados:
 	def fullname(self):
 		return self.nombre + self.apellido
 
-empleado1 = Empleados('Pedro', 'Porras', 10000)
-empleado2 = Empleados('Mike', 'Ayala', 10000)
+empleado1 = Empleados('Pedro', 'Porras', 14000)
+empleado2 = Empleados('Miguel', 'Ayala', 2000)
 empleado3 = Empleados('Toño', 'Villa', 15000)
 
 print(empleado1.fullname())
